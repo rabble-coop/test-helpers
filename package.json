@@ -1,0 +1,19 @@
+{
+  "name": "test-helpers",
+  "version": "1.0.0",
+  "description": "A test library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabble-coop/test-helpers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rabble-coop/test-helpers/issues"
+  },
+  "homepage": "https://github.com/rabble-coop/test-helpers#readme"
+}
