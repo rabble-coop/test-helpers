@@ -12,5 +12,6 @@ export const {
     make_inline_style,
     add_promise_timeout,
     send_email,
+    sort_array_by_count,
     transporter
 } = helpers;

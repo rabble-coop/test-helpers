@@ -9,4 +9,5 @@ export * from './is_valid_email/is_valid_email';
 export * from './make_inline_style/make_inline_style';
 export * from './add_promise_timeout/add_promise_timeout';
 export * from './send_email/send_email';
+export * from './sort_array_by_count/sort_array_by_count';
 export * from './transporter/transporter';
