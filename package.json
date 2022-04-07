@@ -17,5 +17,8 @@
   },
   "homepage": "https://github.com/rabble-coop/test-helpers#readme",
   "type": "module",
-  "typings": "global.d.ts"
+  "typings": "global.d.ts",
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
 }
