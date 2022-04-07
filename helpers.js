@@ -4,4 +4,5 @@ export const {
     decrypt,
     encrypt,
     format_date,
+    generate_hash,
 } = helpers;
