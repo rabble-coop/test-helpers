@@ -10,5 +10,6 @@ export const {
     get_map_key,
     is_valid_email,
     make_inline_style,
+    add_promise_timeout,
     transporter
 } = helpers;

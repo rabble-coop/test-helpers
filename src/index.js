@@ -7,4 +7,5 @@ export * from './get_key_from_value/get_key_from_value';
 export * from './get_map_key/get_map_key';
 export * from './is_valid_email/is_valid_email';
 export * from './make_inline_style/make_inline_style';
+export * from './add_promise_timeout/add_promise_timeout';
 export * from './transporter/transporter';
