@@ -8,5 +8,6 @@ export const {
     get_db,
     get_key_from_value,
     get_map_key,
+    is_valid_email,
     transporter
 } = helpers;
