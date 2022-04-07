@@ -1,5 +1,6 @@
 import * as helpers from './src';
 
 export const {
-    decrypt
+    decrypt,
+    encrypt,
 } = helpers;
