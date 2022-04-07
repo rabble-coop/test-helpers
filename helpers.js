@@ -5,5 +5,6 @@ export const {
     encrypt,
     format_date,
     generate_hash,
+    get_db,
     transporter
 } = helpers;
