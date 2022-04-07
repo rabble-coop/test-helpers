@@ -1,3 +1,5 @@
-export function say_hello() {
-    console.log("hello");
-}
+import * as helpers from './src';
+
+export const {
+    decrypt
+} = helpers;
