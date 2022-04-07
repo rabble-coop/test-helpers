@@ -11,5 +11,6 @@ export const {
     is_valid_email,
     make_inline_style,
     add_promise_timeout,
+    send_email,
     transporter
 } = helpers;
