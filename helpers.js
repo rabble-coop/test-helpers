@@ -9,5 +9,6 @@ export const {
     get_key_from_value,
     get_map_key,
     is_valid_email,
+    make_inline_style,
     transporter
 } = helpers;
