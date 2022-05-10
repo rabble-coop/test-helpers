@@ -11,7 +11,7 @@ dotenv.config();
  * @param {string} subject     The subject of the email.
  * @param {string} body        The HTML body of the email.
  * @param {array}  attachments An array of attachment data.
- * 
+ *
  * @returns {Promise|object} The promise if successful, otherwise an empty object.
  */
 export async function send_email(to, subject, body, attachments = null) {

@@ -1,8 +1,8 @@
 /**
  * Checks if an email address is valid.
- * 
+ *
  * @param {string} email The email address to check.
- * 
+ *
  * @returns {bool} Whether or not the email address is valid.
  */
 export function is_valid_email(email) {

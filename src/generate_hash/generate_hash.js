@@ -1,8 +1,8 @@
 /**
  * Generates a numeric hash from the provided string.
- * 
+ *
  * @param {string} string The string.
- * 
+ *
  * @returns {string} The hash.
  */
 export function generate_hash(string) {

@@ -8,7 +8,7 @@ const iv = crypto.randomBytes(16);
  * Encrypt a string.
  *
  * @param {string} text The string to encrypt.
- * 
+ *
  * @returns {object} The initialization vector and the encrypted string.
  */
 export function encrypt(text) {

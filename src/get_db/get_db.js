@@ -9,7 +9,7 @@ let db = null;
 
 /**
  * Connects to the database and returns connection data.
- * 
+ *
  * @returns {object} The database connection.
  */
 export async function get_db() {

@@ -6,7 +6,7 @@ dotenv.config();
  * Decrypt an encrypted string.
  *
  * @param {object} hash The initialization vector and encrypted string.
- * 
+ *
  * @returns {string} The unencrypted string.
  */
 export function decrypt(hash) {

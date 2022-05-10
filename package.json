@@ -1,28 +1,34 @@
 {
-  "name": "test-helpers",
-  "version": "1.0.1",
-  "description": "A test library",
-  "main": "helpers.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rabble-coop/test-helpers.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rabble-coop/test-helpers/issues"
-  },
-  "homepage": "https://github.com/rabble-coop/test-helpers#readme",
-  "type": "module",
-  "typings": "global.d.ts",
-  "devDependencies": {
-    "@babel/preset-env": "^7.16.11",
-    "dotenv": "^16.0.0",
-    "jest": "^27.5.1",
-    "mongodb": "^4.4.0",
-    "nodemailer": "^6.7.2"
-  }
+	"name": "test-helpers",
+	"version": "1.0.1",
+	"description": "A test library",
+	"main": "helpers.js",
+	"scripts": {
+		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rabble-coop/test-helpers.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rabble-coop/test-helpers/issues"
+	},
+	"homepage": "https://github.com/rabble-coop/test-helpers#readme",
+	"type": "module",
+	"typings": "global.d.ts",
+	"devDependencies": {
+		"@babel/preset-env": "^7.16.11",
+		"dotenv": "^16.0.0",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-jest": "^26.1.5",
+		"jest": "^27.5.1",
+		"mongodb": "^4.4.0",
+		"nodemailer": "^6.7.2",
+		"prettier": "^2.5.1"
+	}
 }

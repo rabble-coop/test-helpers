@@ -1,4 +1,5 @@
 # test-helpers
+
 A test library.
 
 To use this library:
@@ -9,7 +10,7 @@ To use this library:
 "devDependencies": {
     // You can provide a version which corresponds to a Tag
     // on the repository by appending `#tagname`, such as `#1.0.0`.
-    "test-helpers": "github:rabble-coop/test-helpers" 
+    "test-helpers": "github:rabble-coop/test-helpers"
 }
 ```
 

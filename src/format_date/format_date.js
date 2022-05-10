@@ -1,6 +1,6 @@
 /**
  * Formats a date as "Monday, 1 January 2022".
- * 
+ *
  * @param {string|Date} date The date to format.
  *
  * @returns {Date|false} The date formatted as "Monday, 1 January 2022".

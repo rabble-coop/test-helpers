@@ -64,11 +64,11 @@ describe('get_key_from_value', () => {
 		}
 	};
 
-    for (const test in datasets) {
-        const { haystack, needle, sub_key, expected } = datasets[test];
-        
-        it(test, () => {
-            expect(get_key_from_value(haystack, needle, sub_key)).toBe(expected);
-        });
-    }
+	for (const test in datasets) {
+		const { haystack, needle, sub_key, expected } = datasets[test];
+
+		it(test, () => {
+			expect(get_key_from_value(haystack, needle, sub_key)).toBe(expected);
+		});
+	}
 });
